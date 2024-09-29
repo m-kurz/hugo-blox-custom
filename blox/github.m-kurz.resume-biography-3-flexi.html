@@ -124,9 +124,9 @@
   <div class="flex flex-col md:flex-row justify-between mt-6 dark:text-gray-300">
 
     {{ with $person.interests }}
-    <div class="mb-8 md:mb-0">
+    <div class="mb-6 md:mb-0">
       <div class="section-subheading mb-3">{{ i18n "interests" | markdownify }}</div>
-      <ul class="list-disc list-inside space-y-1 pl-5">
+      <ul class="list-disc list-inside space-y-2 pl-4">
         {{ range . }}
         <li>
           {{ . | markdownify | emojify }}
