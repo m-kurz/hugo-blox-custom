@@ -1,3 +1,2 @@
-module github.com/hugo-blox/create-blox
-
+module github.com/m-kurz/hugo-blox-custom
 go 1.19
